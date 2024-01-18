@@ -1,3 +1,8 @@
 body{
     margin: 0;
 }
+:root{
+    --discord-primary: rgba(49, 97, 224, 1);
+    --discord-secondary:  rgba(35, 39, 42, 1);
+    --discord-title:  rgba(142, 161, 225, 1);
+}
