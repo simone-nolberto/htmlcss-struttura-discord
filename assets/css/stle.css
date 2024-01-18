@@ -23,8 +23,9 @@ body{
     width: 500px;
     text-align: center;
     justify-content: center;
+    background-color: blue;
 }
-.w3-tag{
+button{
     height: 40px;
     border: 1px solid black;
     padding: 0.75rem;
@@ -41,17 +42,18 @@ body{
 }
 .main-foto{
     background-color: lightskyblue;
-    width: 350px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
 }
 .main-text{
     background-color: lightpink;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 #function-showcase{
-    width: 300px;
+    width: 700px;
     text-align: center;
     justify-content: center;
+    align-self: center;
     background-color: green;
 }
