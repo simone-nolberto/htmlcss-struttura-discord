@@ -27,7 +27,31 @@ body{
 .w3-tag{
     height: 40px;
     border: 1px solid black;
-    color: white;
     padding: 0.75rem;
     border-radius: 1.5rem;
+}
+#site_main{
+    display: flex;
+    flex-direction: column;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.main-foto{
+    background-color: lightskyblue;
+    width: 350px;
+    height: 150px;
+}
+.main-text{
+    background-color: lightpink;
+    width: 150px;
+    height: 150px;
+}
+#function-showcase{
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    background-color: green;
 }
