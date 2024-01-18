@@ -36,7 +36,7 @@ button{
 /* endregion header */
 
 /* region main */
-#site_main{
+main{
     display: flex;
     flex-direction: column;
 }
@@ -66,7 +66,7 @@ button{
 /* endregion main */
 
 /* region footer */
-#site_footer{
+footer{
     background-color: var(--discord-secondary);
     
     color: white;
