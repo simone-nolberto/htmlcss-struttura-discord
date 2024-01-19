@@ -1,4 +1,4 @@
-/* tools */
+/* #region tools */
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +14,16 @@ button{
     padding: 0.75rem;
     border-radius: 1.5rem;
 }
-/* region header */
+/* #endregion tools */
+
+/* #region header */
 #header-container{
     display: flex;
     justify-content: center;
     justify-content: space-around;
     background-color: var(--discord-primary);
 }
-#header-body{
+.jumbotron{
     display: flex;
     justify-content: center;
     background-color: lightcoral;
@@ -33,9 +35,9 @@ button{
     justify-content: center;
     background-color: blue;
 }
-/* endregion header */
+/* #endregion header */
 
-/* region main */
+/* #region main */
 main{
     display: flex;
     flex-direction: column;
@@ -63,9 +65,9 @@ main{
     background-color: green;
     margin-bottom: 30px;
 }
-/* endregion main */
+/* #endregion main */
 
-/* region footer */
+/* #region footer */
 footer{
     background-color: var(--discord-secondary);
     
@@ -88,4 +90,4 @@ footer{
 ul{
     list-style: none;
 }
-/* endregion footer */
+/* #endregion footer */
