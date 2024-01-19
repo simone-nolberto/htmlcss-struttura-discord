@@ -1,4 +1,4 @@
-/* #region tools */
+/* #region common */
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@ button{
     padding: 0.75rem;
     border-radius: 1.5rem;
 }
-/* #endregion tools */
+/* #endregion common */
 
 /* #region header */
 #header-container{
@@ -22,6 +22,7 @@ button{
     justify-content: center;
     justify-content: space-around;
     background-color: var(--discord-primary);
+    align-items: center;
 }
 .jumbotron{
     display: flex;
@@ -34,6 +35,9 @@ button{
     text-align: center;
     justify-content: center;
     background-color: blue;
+}
+ul{
+    display: flex;
 }
 /* #endregion header */
 
